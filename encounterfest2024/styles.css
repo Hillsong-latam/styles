@@ -1,8 +1,6 @@
-* fonts.css */
-
 @font-face {
     font-family: 'GothamBold';
-        src: url('https://hillsong-latam.github.io/styles/encounterfest2024/Gotham-Bold.otf') format('opentype');
+    src: url('https://hillsong-latam.github.io/styles/encounterfest2024/Gotham-Bold.otf') format('opentype');
     font-style: normal;
 }
 
@@ -13,20 +11,10 @@
     font-style: normal;
 }
 
-  * {
-   font-family: 'GothamBold', sans-serif!important;
-  }
-
-/* Ejemplo de uso */
-body {
-    font-family: 'PetaleMedium', sans-serif;
+.wrapper body, .wrapper p {
+    font-family: 'GothamBold', sans-serif!important;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.wrapper h1 {
   font-family: 'PetaleMedium', sans-serif!important;
 }
