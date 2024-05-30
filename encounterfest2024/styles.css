@@ -1,0 +1,32 @@
+* fonts.css */
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('./Gotham-Bold.otf') format('otf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PetaleMedium';
+    src: url('Petale-Medium.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  * {
+   font-family: 'GothamBold', sans-serif!important;
+  }
+
+/* Ejemplo de uso */
+body {
+    font-family: 'PetaleMedium', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'PetaleMedium', sans-serif!important;
+}
