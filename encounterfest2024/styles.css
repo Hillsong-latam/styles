@@ -2,13 +2,13 @@
 
 @font-face {
     font-family: 'GothamBold';
-    src: url('./Gotham-Bold.otf') format('otf');
+    src: url('https://raw.githubusercontent.com/Hillsong-latam/styles/main/encounterfest2024/Gotham-Bold.otf') format('opentype');
     font-style: normal;
 }
 
 @font-face {
     font-family: 'PetaleMedium';
-    src: url('Petale-Medium.otf') format('otf');
+    src: url('https://raw.githubusercontent.com/Hillsong-latam/styles/main/encounterfest2024/Petale-Medium.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
